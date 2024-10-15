@@ -5,6 +5,7 @@ int main()
     double a, b, c;
     double x1, x2;
     double discriminante;
+    cout << "Introduce los valores"<<endl;
 
     // Solicitar al usuario los valores de a, b y c
     cout << "Introduce el valor de a: ";
@@ -17,11 +18,12 @@ int main()
     // Calcular el discriminante
     discriminante = b * b - 4 * a * c;
 
-    // Calcular las raíces
+    // Calcular las raï¿½ces
     x1 = (-b + sqrt(discriminante)) / (2 * a);
     x2 = (-b - sqrt(discriminante)) / (2 * a);
+    cout << "Las raices son: "<<endl;
 
-    // Mostrar las raíces con dos decimales
+    // Mostrar las raï¿½ces con dos decimales
     cout << "x1 = " << round(x1 * 100) / 100 << endl;
     cout << "x2 = " << round(x2 * 100) / 100 << endl;
 
